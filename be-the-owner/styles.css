@@ -1,17 +1,22 @@
 body {
-  font-family:'Courier New', Courier, monospace;
-  background-image: url("homebackground.png");
+  font-family: Helsinki;
+  background-image: url("BeTheOwnerBackground.png");
   background-attachment: fixed;
   text-align: center;
   font-size: 25px;
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke: 0px black;
+  -webkit-text-stroke: 1.5px black;
   padding-left: 100px;
   padding-right: 100px;
 }
 
+@font-face {
+  font-family: Helsink;
+  src: url("helsinki.ttf");
+}
+
 html {
-  background-image: url("homebackground.png");
+  background-image: url("BeTheOwnerBackground.png");
   background-attachment: fixed;
 }
 
@@ -21,7 +26,7 @@ html {
 }
 
 .navbar a {
-  font-family:'Courier New', Courier, monospace;
+  font-family: Helsinki;
   float: left;
   font-size: 32px;
   color: white;
