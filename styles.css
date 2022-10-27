@@ -1,0 +1,33 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-image: url("homebackground.png");
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 25px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke: 0px black;
+}
+
+html {
+  background-image: url("homebackground.png");
+  background-attachment: fixed;
+}
+
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+}
+
+.navbar a {
+  font-family:'Courier New', Courier, monospace;
+  float: left;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  -webkit-text-fill-color: rgb(165, 0, 0);
+}
