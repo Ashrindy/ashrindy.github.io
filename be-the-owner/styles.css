@@ -4,8 +4,8 @@ body {
   background-attachment: fixed;
   text-align: center;
   font-size: 25px;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke: 1.5px black;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
   padding-left: 100px;
   padding-right: 100px;
 }
