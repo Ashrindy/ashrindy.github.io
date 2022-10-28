@@ -8,6 +8,7 @@ body {
   -webkit-text-stroke: 0px black;
   padding-left: 100px;
   padding-right: 100px;
+  color: white;
 }
 
 .link {
