@@ -4,10 +4,9 @@ body {
   background-attachment: fixed;
   text-align: center;
   font-size: 30px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
-  -webkit-text-stroke: 2px rgb(0, 0, 0);
   padding-left: 100px;
   padding-right: 100px;
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 
 @font-face {
@@ -33,6 +32,7 @@ html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 
 .navbar a:hover {
