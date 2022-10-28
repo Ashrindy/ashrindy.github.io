@@ -19,6 +19,17 @@ body {
   padding: 20px;
 }
 
+footer { 
+  font-family:'Courier New', Courier, monospace;
+  background-image: url("copyright.png");
+  margin-bottom:0px; 
+  color: white; 
+  position: fixed;
+  left: 0;
+  bottom: 0;  
+  font-size: 20px;
+}
+
 html {
   background-image: url("homebackground.png");
   background-attachment: fixed;

@@ -14,6 +14,17 @@ body {
   src: url("helsinki.ttf");
 }
 
+footer { 
+  font-family: Helsinki;
+  background-image: url("copyright.png");
+  margin-bottom:0px; 
+  color: white; 
+  position: fixed;
+  left: 0;
+  bottom: 0;  
+  font-size: 20px;
+}
+
 .link {
   font-family: Helsinki;
   color: white;
