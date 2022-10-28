@@ -14,6 +14,15 @@ body {
   src: url("helsinki.ttf");
 }
 
+.link {
+  font-family: Helsinki;
+  color: white;
+  text-align:center;
+  font-size: 35px;
+  padding: 20px;
+  padding-top: 350px;
+}
+
 html {
   background-image: url("BeTheOwnerBackground.png");
   background-attachment: fixed;
