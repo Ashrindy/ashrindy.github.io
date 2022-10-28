@@ -3,9 +3,9 @@ body {
   background-image: url("SonicClashBackground.png");
   background-attachment: fixed;
   text-align: center;
-  font-size: 25px;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke: 0px black;
+  font-size: 35px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -28,7 +28,7 @@ html {
 .navbar a {
   font-family: Impress;
   float: left;
-  font-size: 32px;
+  font-size: 35px;
   color: white;
   text-align: center;
   padding: 14px 16px;
