@@ -9,6 +9,29 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.breaker {
+  width: 70%;
+  height: 70%;
+}
+
+.link {
+  font-family: Impress;
+  color: white;
+  text-align:center;
+  font-size: 35px;
+  padding: 20px;
+}
+
+iframe {
+  border-radius: 25px;
+}
+
+.screenshot {  
+  width: 65%;  
+  height: 65%; 
+  border-radius: 25px; 
+}  
+
 @font-face {
   font-family: Impress;
   src: url("ImpressRegular.otf");

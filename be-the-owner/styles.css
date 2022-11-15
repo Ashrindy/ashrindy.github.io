@@ -25,6 +25,14 @@ footer {
   font-size: 20px;
 }
 
+.screenshot {
+  border-radius: 25px;
+}
+
+iframe {
+  border-radius: 25px;
+}
+
 .link {
   font-family: Helsinki;
   color: white;
