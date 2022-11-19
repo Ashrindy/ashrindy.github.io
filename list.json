@@ -2,14 +2,14 @@
   "betheowner": {
     "name": "Be The Owner",
     "details": "A cooking game",
-    "grid": "https://cdn.discordapp.com/attachments/842434060714639371/1043593303066693712/051a0dd48e88cc9609b5676f8d32189b.png",
+    "imggrid": "https://cdn.discordapp.com/attachments/842434060714639371/1043593303066693712/051a0dd48e88cc9609b5676f8d32189b.png",
     "image": "",
     "gamelink": ""
   },
   "sonicclash": {
     "name": "Sonic Clash",
     "details": "Unreal Engine 4 Plugin",
-    "grid": "",
+    "imggrid": "",
     "image": "",
     "gamelink": ""
   }
