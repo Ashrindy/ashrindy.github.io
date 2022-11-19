@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: Helsink;
-  src: url("helsinki.ttf");
+  src: url("/be-the-owner/helsinki.ttf");
 }
 
 footer { 
