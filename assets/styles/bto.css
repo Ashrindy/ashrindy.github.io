@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Helsinki;
+  src: url(../fonts/helsinki.ttf);
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+body {
+  background-image: url("../images/bto/BeTheOwnerBackground.webp");
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  animation: 0.65s ease-in-out 0s 1 slideInFromTop;
+  padding-top: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  user-select: none;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.titledesc {
+  animation: 0.65s ease-in-out 0s 1 slideInFromTop;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -40px;
+  margin-bottom: 22%;
+  color: white;
+  font-family: "Helsinki";
+  text-shadow: 0px 0px 10px black;
+  user-select: none;
+  -webkit-app-region: no-drag;
+}
+
+.infodiv {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 4, 4, 0.9) 0%,
+    rgba(10, 10, 10, 0.9) 100%
+  );
+  padding-bottom: 3%;
+}
+
+.infodivimg1 {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 2%;
+  user-select: none;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.infodiv p {
+  font-family: "Helsinki";
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  display: block;
+  margin-left: 5%;
+  margin-right: 60%;
+  font-size: 37px;
+  text-align: left;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.infodivimg2 {
+  box-shadow: 0px 0px 10px black;
+  border-radius: 50px;
+  display: block;
+  width: 45%;
+  height: 45%;
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: -30%;
+  margin-bottom: 2%;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.featuresdiv {
+  background: transparent;
+  padding-bottom: 3%;
+}
+
+.featuresdivimg1 {
+  position: relative;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-right: 3.5%;
+  margin-top: 5%;
+  user-select: none;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.featuresdiv p {
+  font-family: "Helsinki";
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  display: block;
+  margin-left: 60%;
+  margin-right: 5%;
+  font-size: 235%;
+  text-align: right;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.featuresdivimg2 {
+  box-shadow: 0px 0px 10px black;
+  border-radius: 50px;
+  display: block;
+  width: 45%;
+  height: 45%;
+  margin-left: auto;
+  margin-right: 50%;
+  margin-top: -23%;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.trailer {
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 50px;
+}
